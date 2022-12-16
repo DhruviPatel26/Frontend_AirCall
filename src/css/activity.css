@@ -1,0 +1,19 @@
+.call_container{
+    padding: 20px;
+  
+
+}
+
+.call_time{
+    float: right;
+}
+img{
+    height:17x;
+    width:18px;
+}
+p{
+    float: left;
+    padding-right:10px;
+    
+    margin-top: -5px
+}
