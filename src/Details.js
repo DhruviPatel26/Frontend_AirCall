@@ -29,13 +29,13 @@ function Details() {
                 data.map((details, i) =>
                     <div key={i} className='call_container'>
                         <div className='dial_no'>Caller No: {details.to}</div>
-                        <div className='date'> Date:{moment(details.created_at).format("YYYY:MM:DD")}</div><br></br>
-                        <div className='duration'> Duration: {details.duration}</div><br></br>
+                        <div className='date'> <b>Date: </b>{moment(details.created_at).format("YYYY:MM:DD")}</div><br></br>
+                        <div className='duration'> <b>Duration: </b>{details.duration}</div><br></br>
                         <div className='bound'> {details.direction}<br></br>{details.call_type}</div>
 
 
                         <div className="time">
-                            Time: {moment(details.created_at).format("h:mm a")}
+                            <b> Time: </b>{moment(details.created_at).format("h:mm a")}
 
                         </div>
 
