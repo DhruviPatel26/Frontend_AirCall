@@ -15,8 +15,16 @@ const App = () => {
   return (
     <div className='container'>
       <Header />
-      <div className="container-view">Some activities should be here</div>
-      <Activity />
+      <Routes>
+        {/* <Route path="/activity" element={<Activity />} /> */}
+        <Route path="/" element={<Activity />} />
+        <Route path="details/:id" element={<Details />} />
+
+      </Routes>
+      {/* <div className="container-view">All Calls</div> */}
+      {/* <Activity /> */}
+
+
 
 
     </div>

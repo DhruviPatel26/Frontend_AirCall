@@ -1,6 +1,8 @@
 .call_container{
+ 
     padding: 20px;
-  
+    box-shadow: 0 0 1px 0 rgb(0 0 0 / 35%);
+    background: #fff;
 
 }
 
@@ -8,12 +10,42 @@
     float: right;
 }
 img{
-    height:17x;
-    width:18px;
+    height: 15px;
+    width: 16px;
+    padding-left: 6px;
 }
 p{
     float: left;
     padding-right:10px;
     
     margin-top: -5px
+}
+.archive{
+    float: right;
+    margin-left:10px;
+    margin-top: -8px;
+}
+.reset{
+    float: right;
+    margin-right: 22px;
+}
+.archive_all{
+    margin-left: 24px;
+    margin-right: 53px;
+}
+.wrapbtn{
+    margin-top: 11px;
+    margin-bottom: 10px;
+}
+.callerto{
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+}
+.unarch{
+    float: right;
+    margin-right: 21px;
+}
+.back{
+    margin-left: 30px;
 }
